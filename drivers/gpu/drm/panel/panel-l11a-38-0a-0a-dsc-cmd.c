@@ -18,7 +18,7 @@
 #include <video/of_videomode.h>
 #include <video/videomode.h>
 #include "../mediatek/mediatek_v2/mi_disp/mi_dsi_panel.h"
-
+#include "../mediatek/mediatek_v2/mi_disp/mi_panel_ext.h"
 #include <linux/module.h>
 #include <linux/of_platform.h>
 #include <linux/platform_device.h>
@@ -33,7 +33,6 @@
 #include "../mediatek/mediatek_v2/mtk_drm_graphics_base.h"
 #include "../mediatek/mediatek_v2/mtk_log.h"
 #endif
-#include "../mediatek/mediatek_v2/mi_disp/mi_panel_ext.h"
 
 
 #ifdef CONFIG_MTK_ROUND_CORNER_SUPPORT
