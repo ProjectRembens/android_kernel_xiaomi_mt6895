@@ -17,7 +17,8 @@
 #include <video/mipi_display.h>
 #include <video/of_videomode.h>
 #include <video/videomode.h>
-
+#include "../mediatek/mediatek_v2/mi_disp/mi_dsi_panel.h"
+#include "../mediatek/mediatek_v2/mi_disp/mi_panel_ext.h"
 #include <linux/module.h>
 #include <linux/of_platform.h>
 #include <linux/platform_device.h>
